@@ -1,0 +1,16 @@
+package com.bgpghunt.first.service;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.bgpghunt.first.EntityClass.User;
+
+@Service  
+public interface iUserService {
+
+	List<User> getAUser();
+	int setUser();
+	User fetchUser(int id);
+	
+}

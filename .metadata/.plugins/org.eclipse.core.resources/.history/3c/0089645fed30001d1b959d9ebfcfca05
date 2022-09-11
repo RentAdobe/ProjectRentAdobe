@@ -1,0 +1,25 @@
+package com.bgpghunt.first.EntityClass;
+
+import java.sql.Blob;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="tbl_userdetail")
+public class User {
+	
+	@Id
+	@GeneratedValue
+	long id;
+	String fname;
+	String lname;
+	long phoneno;
+	String gender;
+	long addhar;
+	String gmail;
+	Blob img;
+
+}

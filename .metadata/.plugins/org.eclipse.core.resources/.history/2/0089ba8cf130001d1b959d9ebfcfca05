@@ -1,0 +1,5 @@
+package com.bgpghunt.first.Repositories;
+
+public class UserRepositoritry {
+
+}

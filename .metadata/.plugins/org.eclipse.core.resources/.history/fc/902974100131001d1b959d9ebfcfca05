@@ -1,0 +1,29 @@
+package com.bgpghunt.first.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.bgpghunt.first.EntityClass.User;
+import com.bgpghunt.first.Repositories.UserRepositoritry;
+import java.util.*;
+
+public class UserService  implements iUserService{
+
+	@Autowired
+	UserRepositoritry userRepositoritry;
+	
+	@Override
+	public List<User> getAUser() {
+		// TODO Auto-generated method stub
+		
+		return userRepositoritry.findAll();
+	}
+
+	
+
+	@Override
+	public List<User> getbyId(long id) {
+		
+		return userRepositoritry.findAllById(id);
+	}
+
+}

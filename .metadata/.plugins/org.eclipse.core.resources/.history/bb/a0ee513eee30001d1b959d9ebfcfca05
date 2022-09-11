@@ -1,0 +1,11 @@
+package com.bgpghunt.first.service;
+
+import com.bgpghunt.first.EntityClass.User;
+
+public interface iUserService {
+
+	User getUser();
+	int setUser();
+	User fetchUser(int id);
+	
+}

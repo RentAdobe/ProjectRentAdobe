@@ -1,0 +1,7 @@
+package com.bgpghunt.first.service;
+
+import com.bgpghunt.first.EntityClass.User;
+
+public class UserService  implements iUserService{
+
+}

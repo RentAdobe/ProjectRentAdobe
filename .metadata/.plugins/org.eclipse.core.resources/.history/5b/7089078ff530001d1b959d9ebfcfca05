@@ -1,0 +1,10 @@
+package com.bgpghunt.first.Repositories;
+
+import org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration;
+import org.springframework.stereotype.Repository;
+
+
+@Repository
+public class UserRepositoritry extends JpaRepositoriesAutoConfiguration {
+
+}

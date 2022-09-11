@@ -1,0 +1,5 @@
+package com.bgpghunt.first.Exception;
+
+public class ResourseNotFoundException {
+
+}
